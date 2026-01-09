@@ -115,7 +115,7 @@ nav li a:hover {
 .btn i:hover{
     color: #30b868;
 }
-#note,#solution,footer{
+#note,#solution,footer,#ad{
     width: 1600px;
 }
 .note-content{
@@ -248,4 +248,35 @@ footer{
     width: 1360px;
     color: #FAFAFA;
     margin-bottom: 30px;
+}
+.ad-cont{
+    margin: 0 120px 120px 120px;
+    background-color: #F7F6F2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.ad-cont .adhead{
+    padding: 80px 40px 0 40px;
+}
+.ad-cont .adfoot {
+    padding: 0 40px 80px 40px;
+}
+.ad-cont .adhead h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.ad-cont .adhead .one{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+}
+.ad-cont .adfoot .two{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-top: 16px;
 }
