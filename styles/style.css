@@ -308,6 +308,7 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 24px;
+    border-radius: 12px;
 }
 .ad-cont .adhead{
     padding: 80px 40px 0 40px;
