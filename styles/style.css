@@ -170,43 +170,42 @@ nav li a:hover {
 .knowledge-light img{
     padding-right: 60px;
 }
-#solution .sol-det {
+.solution-cont .solution-desc .sol-det {
     text-align: left;
 }
-#solution .sol-det .head-p{
+.solution-cont .solution-desc .sol-det .head-p{
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
     color: #30b868;
     margin-bottom: 16px;
 }
-#solution .sol-det h2{
+.solution-cont .solution-desc .sol-det h2{
     font-size: 48px;
     font-weight: bold;
     color: #001931;
     margin-bottom: 16px;
 }
-#solution .desc-p{
+.solution-cont .solution-desc .desc-p{
     font-size: 16px;
     line-height: 20px;
     color: #627382;
     margin-bottom: 40px;
 }
-#solution .opt-p{
+.solution-cont .solution-desc .opt-p{
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
     color: #001931;
     margin-bottom: 16px;
 }
-#solution .opt-p{
+.solution-cont .solution-desc .opt-p{
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
     color: #001931;
-    margin-bottom: 16px;/* isn't being aligned same with design yet.I need to find another way */
+    margin-bottom: 16px;/* isn't being aligned same with design yet.I need to /find another way */
     display: flex;
     align-items: center;
     gap: 6px;
 }
-.opt-end-p
